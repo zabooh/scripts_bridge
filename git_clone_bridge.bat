@@ -3,6 +3,7 @@
 set H3_APP_GITHUB="https://github.com/Microchip-MPLAB-Harmony"
 set APP_BRIDGE_GITHUB="https://github.com/zabooh"
 
+
 set H3_INSTALL_APP="..\frameworks\app"
 set H3_INSTALL_BOOTLOADER="..\frameworks\bootloader"
 
@@ -34,3 +35,7 @@ git clone -b "v3.8.2"               %H3_APP_GITHUB%/mhc.git  %H3_INSTALL_BOOTLOA
 
 git clone -b "v3.1.0"               %H3_APP_GITHUB%/bootloader_apps_usb.git  %H3_INSTALL_BOOTLOADER_APPS%/bootloader_apps_usb
 git clone -b "v1.0.0"               %APP_BRIDGE_GITHUB%/wfi32_bridge.git   %H3_INSTALL_APP_APPS%/wfi32_bridge
+git clone -b "v1.0.0"               %APP_BRIDGE_GITHUB%/wfi32_bridge.git   %H3_INSTALL_APP_APPS%/wfi32_bridge
+git clone -b "v1.0.0"               %APP_BRIDGE_GITHUB%/wfi32_hid_bootloader.git   %H3_INSTALL_APP_APPS%/wfi32_hid_bootloader
+
+
