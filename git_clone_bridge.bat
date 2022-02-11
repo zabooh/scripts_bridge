@@ -1,15 +1,6 @@
 @ECHO OFF
 
-set H3_APP_GITHUB="https://github.com/Microchip-MPLAB-Harmony"
-set APP_BRIDGE_GITHUB="https://github.com/zabooh"
-
-
-set H3_INSTALL_APP="..\frameworks\app"
-set H3_INSTALL_BOOTLOADER="..\frameworks\bootloader"
-
-set H3_INSTALL_APP_APPS="..\apps\apps"
-set H3_INSTALL_BOOTLOADER_APPS="..\apps\bootloader_apps"
-
+call set_pathes.bat
 
 git clone -b "v3.10.0"              %H3_APP_GITHUB%/core.git %H3_INSTALL_APP%/core
 git clone -b "v3.10.0"              %H3_APP_GITHUB%/csp.git  %H3_INSTALL_APP%/csp
