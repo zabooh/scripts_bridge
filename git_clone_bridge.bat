@@ -28,4 +28,8 @@ git clone -b "v3.1.0"               %H3_APP_GITHUB%/bootloader_apps_usb.git  %H3
 git clone                           %APP_BRIDGE_GITHUB%/wfi32_bridge.git   %H3_INSTALL_APP_APPS%/wfi32_bridge
 git clone                           %APP_BRIDGE_GITHUB%/wfi32_hid_bootloader.git   %H3_INSTALL_APP_APPS%/wfi32_hid_bootloader
 
+
+copy .\patches\plib_clk.c.ftl ..\frameworks\app\csp\peripheral\clk_pic32mzw\templates\ 
+copy .\patches\plib_clk.c.ftl ..\frameworks\bootloader\csp\peripheral\clk_pic32mzw\templates\
+
 pause
