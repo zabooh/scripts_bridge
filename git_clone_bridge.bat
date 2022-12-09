@@ -24,7 +24,6 @@ git clone -b "v3.9.0"               %H3_APP_GITHUB%/bsp.git  %H3_INSTALL_BOOTLOA
 git clone -b "v3.8.2"               %H3_APP_GITHUB%/mhc.git  %H3_INSTALL_BOOTLOADER%/mhc
 
 
-git clone -b "v3.1.0"               %H3_APP_GITHUB%/bootloader_apps_usb.git  %H3_INSTALL_BOOTLOADER_APPS%/bootloader_apps_usb
 git clone                           %APP_BRIDGE_GITHUB%/wfi32_bridge.git   %H3_INSTALL_APP_APPS%/wfi32_bridge
 git clone                           %APP_BRIDGE_GITHUB%/wfi32_hid_bootloader.git   %H3_INSTALL_APP_APPS%/wfi32_hid_bootloader
 
